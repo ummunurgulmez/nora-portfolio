@@ -63,6 +63,23 @@ button {
   background-color: transparent;
 }
 
+.linkColorChange {
+  text-decoration: none;
+  color: black;
+}
+.linkColorChange:hover {
+  color: initial; 
+  text-decoration: none;
+}
+
+.no-link-style {
+  text-decoration: none; 
+  color: black; 
+}
+
+.no-link-style:hover {
+  color: black; 
+}
 input:focus, textarea:focus, select:focus {
   outline: none;
 }

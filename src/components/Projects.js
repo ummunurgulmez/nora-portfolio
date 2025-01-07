@@ -18,32 +18,33 @@ export const Projects = () => {
       title: "Development of a Secure Communication Protocol for UAVs",
       description: "Python, Encryption Algorithms(ECC/AES-GCM), NS-3 Simulation, OpenSSL, SHA-256, E-signature",
       imgUrl: projImg1,
+      linkUrl: "",
     },
     {
       title: "Cryptocurrency Forecasting",
       description: "Python, Machine Learning Model (LSTM), Data Manipulation Libraries (Pandas, NumPy), Data Visualization (Matplotlib, Seaborn), Evaluation Metrics (MSE, RMSE)",
       imgUrl: projImg2,
-      link: "https://github.com/kutlinho/Team9_CryptocurrencyForecasting"
+      linkUrl: "https://github.com/kutlinho/Team9_CryptocurrencyForecasting"
     },
     {
       title: "Data Journalism with Anime",
       description: "Python, Data Manipulation Libraries (Pandas, NumPy), Data Visualization (Matplotlib, Seaborn)",
       imgUrl: projImg3,
-      link: "https://github.com/ummunurgulmez/Data-Journalism-with-Anime"
+      linkUrl: "https://github.com/ummunurgulmez/Data-Journalism-with-Anime"
     },
     {
       title: "Shopping App - Pochette",
       description: "Java, Firebase Database, Android Studio, OOP Principles",
       imgUrl: projImg5,
-      link: "https://github.com/ummunurgulmez/android-java-alisveris-uygulamasi"
+      linkUrl: "https://github.com/ummunurgulmez/android-java-alisveris-uygulamasi"
     },
     {
       title: "Bridge Web Site",
       description: "Flutter, Python, Django, HTML/CSS",
       imgUrl: projImg4,
-      link: "https://github.com/ummunurgulmez/bridge_web"
+      linkUrl: "https://github.com/ummunurgulmez/bridge_web"
     },
-
+   
   ];
 
   return (
@@ -82,12 +83,13 @@ export const Projects = () => {
                           })
                         }
                       </Row>
+                      <p>*Some projects come with a GitHub twist—click and explore the code magic! 🚀✨</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
                       <EducationTimeline />
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p> Oh, and by the way, my English? It's B2-level awesome! 🎯 I can discuss complex topics, share opinions, and maybe even convince you that pineapple *does* belong on pizza. 🍍🍕</p>
+                      <p> Oh, and by the way, my English? It's B2-level awesome! 🎯 I can discuss complex topics, share opinions, and maybe even convince you that cats are secretly running the world.😹</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
