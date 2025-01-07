@@ -2,6 +2,12 @@ import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import meter4 from "../assets/img/meter4.svg";
+import agile from "../assets/img/agile.png";
+import js from "../assets/img/js.png";
+import python from "../assets/img/python.png";
+import sql from "../assets/img/sql.png";
+import machinelearning from "../assets/img/machinelearning.png";
+import html from "../assets/img/html.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -12,7 +18,7 @@ import DynamicPercentageSVG from "./DynamicPercentageSVG";
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
+ 
       breakpoint: { max: 4000, min: 3000 },
       items: 5
     },
@@ -40,32 +46,32 @@ export const Skills = () => {
                         <p>Languages & Frameworks/Tools</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <DynamicPercentageSVG value="85%" />
+                            <img src= {python}/>
                                 &nbsp;
                                 <h5>Python</h5>
                             </div>
                             <div className="item">
-                              <DynamicPercentageSVG value="95%" />
+                            <img src= {html}/>
                                 &nbsp;
                                 <h5>HTML/CSS</h5>
                             </div>
                             <div className="item">
-                            <DynamicPercentageSVG value="80%" />
+                            <img src= {js}/>
                             &nbsp;
                                 <h5>JavaScript</h5>
                             </div>
                             <div className="item">
-                                <DynamicPercentageSVG value="85%" />
+                                <img src= {sql}/>
                                 &nbsp;
                                 <h5>SQL</h5>
                             </div>
                             <div className="item">
-                                <DynamicPercentageSVG value="80%" />
+                                <img src= {machinelearning}/>
                                 &nbsp;
                                 <h5>Machine Learning</h5>
                             </div>
                             <div className="item">
-                                <DynamicPercentageSVG value="95%" />
+                                <img src= {agile}/>
                                 &nbsp;
                                 <h5>Agile Methodologies</h5>
                             </div>

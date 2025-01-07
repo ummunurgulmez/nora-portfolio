@@ -26,7 +26,7 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
-    let response = await fetch("https://getform.io/f/bmddejxa", {
+    let response = await fetch("https://getform.io/f/akkkwjpa", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
