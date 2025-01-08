@@ -1,7 +1,3 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
-import meter4 from "../assets/img/meter4.svg";
 import agile from "../assets/img/agile.png";
 import js from "../assets/img/js.png";
 import python from "../assets/img/python.png";
@@ -10,10 +6,8 @@ import machinelearning from "../assets/img/machinelearning.png";
 import html from "../assets/img/html.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
-import DynamicPercentageSVG from "./DynamicPercentageSVG";
+
 
 export const Skills = () => {
   const responsive = {
