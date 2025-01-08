@@ -558,7 +558,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
-  background-image: url('./assets/img/bg.jpg');
+  /* background-image: url('./assets/img/bg.jpg'); */
+  background: linear-gradient(90.21deg, #01002b -2.91%, #5e090d  111.58%);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
