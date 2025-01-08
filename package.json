@@ -1,7 +1,4 @@
 {
-  "homepage": "https://ummunurgulmez.github.io/nora-portfolio/",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
   "name": "nora-portfolio",
   "version": "0.1.0",
   "private": true,
