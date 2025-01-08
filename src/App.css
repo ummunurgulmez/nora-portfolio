@@ -406,7 +406,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #0d0047 -5.91%,  #d30404 111.58%);
+    background: linear-gradient(90.21deg, #011361 -5.91%, #4e0001 111.58%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -438,7 +438,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg,#120258 -5.91%, #c01010  111.58%);
+  background: linear-gradient(90.21deg,#011361 -5.91%, #4e0001  111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -485,7 +485,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #01002b -2.91%, #5e090d  111.58%);
+  background: linear-gradient(90.21deg, #4e0001 -2.91%,  #011361  111.58%);
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -559,7 +559,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer {
   padding: 0 0 50px 0;
   /* background-image: url('./assets/img/bg.jpg'); */
-  background: linear-gradient(90.21deg, #01002b -2.91%, #5e090d  111.58%);
+  background: 
+  linear-gradient(90.21deg, #4e0001 -2.91%, #011361 111.58%),
+  linear-gradient(to bottom, rgba(0, 0, 0, 0) 26%, black 100%);
+  background-blend-mode: multiply;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -588,7 +591,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .new-email-bx::before {
   content: "";
-  background: linear-gradient(90.21deg, #140266 -5.91%, #b90404 111.58%);
+  background: linear-gradient(90.21deg, #4e0001 -5.91%, #01002b 111.58%);
   border-radius: 20px;
   position: absolute;
   z-index: -1;
@@ -617,7 +620,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0 15px;
 }
 .new-email-bx button {
-  background: linear-gradient(90.21deg,#100057 -5.91%,  #cf0202 111.58%);
+  background: linear-gradient(90.21deg,#4e0001 -5.91%, #01002b 111.58%);
   padding: 20px 65px;
   color: #fff;
   font-weight: 500;
